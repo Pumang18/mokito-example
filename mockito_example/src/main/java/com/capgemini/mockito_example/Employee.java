@@ -18,7 +18,7 @@ public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long code;
-
+	//changes made in entity
 	private String name;
 	private double basic;
 
